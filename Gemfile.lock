@@ -1,0 +1,23 @@
+GIT
+  remote: https://github.com/prawnpdf/prawn.git
+  revision: c800c8af8c4b959982b3d0a21d47b2ece99d1629
+  specs:
+    prawn (2.0.0)
+      pdf-core (~> 0.5.0)
+      ttfunk (~> 1.4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    combine_pdf (0.1.13)
+      ruby-rc4 (>= 0.1.5)
+    pdf-core (0.5.0)
+    ruby-rc4 (0.1.5)
+    ttfunk (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  combine_pdf
+  prawn!
